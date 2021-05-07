@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <a href="" download="文件.csv" id="btn">下载</a>
+    <script>
+
+        window.saveAs = window.saveAs || window.webkitSaveAs || window.mozSaveAs || window.msSaveAs ||
+            //(msIE) save Blob API
+            (!window.navigator.saveBlob ? false : function (blobURL, fileName) {
+            return window.navigator.saveBlob(blobURL, fileName);
+            }) ||
+            //save blob via a href and download
+            (!window.URL ? false : function (blobURL, fileName) {
+                //create blobURL
+                    deleteBlobURL = function () {
+                        setTimeout(function () {
+                            //delay deleting, otherwise firefox wont download anything
+                            window.URL.revokeObjectURL(blobURL);
+                        }, 250);
+                    };
+
+                //test for download link support
+                if ("download" in document.createElement("a")) {
+                    //create anchor
+                    var a = document.createElement("a");
+                    //set attributes
+                    a.setAttribute("href", blobURL);
+                    a.setAttribute("download", fileName);
+                    //create click event
+                    a.onclick = deleteBlobURL;
+
+                    //append, trigger click event to simulate download, remove
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }
+                else {
+                    //fallback, open resource in new tab
+                    window.open(blobURL, "_blank", "");
+                    deleteBlobURL();
+                }
+            });
+
+    let url = getQueryStringValue("url");
+    function getQueryStringValue(name) {
+      var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+      return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    }
+    //var blob = new Blob(["Hello,world!\n123123,123123"], {type: "text/csv,charset=UTF-8"});
+        console.log(url)
+
+        window.saveAs(url, 'wordcontent.docx');
+	//window.URL.createObjectURL(blob);
+    </script>
+</body>
+</html>

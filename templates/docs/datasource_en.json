@@ -1,0 +1,97 @@
+{
+  "Sample_Data_for_Controls": {
+    "text_data_bind": "The text used to fill the text control",
+    "barcode_data_bind": {
+      "qrcode": "QRCode data sample",
+      "pdf417": "PDF417 data sampole",
+      "datamatrix": "datamatrix sample",
+      "isbn": "978-7-301-04815-3",
+      "upca": "001234567895",
+      "upce": "01234133",
+      "ean": "1134567890121",
+      "code39": "123ABC",
+      "code128": "code(128)-sample"
+    },
+    "image_data_bind": "https://www.forbes.fr/wp-content/uploads/2018/08/3-max-pixel-tyrol-du-sud-italie-740x490.jpg",
+    "chart_data_bind": [
+      {
+        "category": "Year 1994",
+        "series_1": 0.32,
+        "series_2": 7.28,
+        "series_3": 2.2
+      },
+      {
+        "category": "Year 1999",
+        "series_1": 1.09,
+        "series_2": 9.63,
+        "series_3": 2.1
+      },
+      {
+        "category": "Year 2004",
+        "series_1": 1.95,
+        "series_2": 12.21,
+        "series_3": 2.8
+      },
+      {
+        "category": "Year 2009",
+        "series_1": 5.1,
+        "series_2": 14.44,
+        "series_3": 3.3
+      },
+      {
+        "category": "Year 2014",
+        "series_1": 13.1,
+        "series_2": 17.5,
+        "series_3": 3.88
+      },
+      {
+        "category": "Year 2019",
+        "series_1": 16.33,
+        "series_2": 21.4,
+        "series_3": 3.86
+      }
+    ],
+    "loop_data_bind": [
+      {
+        "country": "China",
+        "column_number": 0.32,
+        "column_string": "Trillion",
+        "column_int": "1994"
+      },
+      {
+        "country": "U.S.A",
+        "column_number": 7.28,
+        "column_string": "Trillion",
+        "column_int": "1994"
+      },
+      {
+        "country": "Germany",
+        "column_number": 2.2,
+        "column_string": "Trillion",
+        "column_int": "1994"
+      },
+      {
+        "country": "China",
+        "column_number": 14.27,
+        "column_string": "Trillion",
+        "column_int": "2019"
+      },
+      {
+        "country": "U.S.A",
+        "column_number": 21.4,
+        "column_string": "Trillion",
+        "column_int": "2019"
+      },
+      {
+        "country": "Germany",
+        "column_number": 3.86,
+        "column_string": "Trillion",
+        "column_int": "2019"
+      }
+    ],
+    "condition_data_bind": {
+      "true_value": true,
+      "false_value": false
+    }
+  }
+}

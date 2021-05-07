@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+	<pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+				<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
+		<pkg:xmlData>
+			<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex wp14">
+				<w:body>
+					<w:p w14:paraId="097D3AEE" w14:textId="239BBD01" w:rsidR="00692156" w:rsidRPr="004F548C" w:rsidRDefault="002444DD" w:rsidP="004F548C">
+						<w:r>
+							<w:rPr>
+								<w:noProof/>
+							</w:rPr>
+							<w:drawing>
+								<wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="28AE9413" wp14:editId="021E258A">
+									<wp:extent cx="5274310" cy="3076575"/>
+									<wp:effectExtent l="0" t="0" r="0" b="0"/>
+									<wp:docPr id="2" name="图表 2"/>
+									<wp:cNvGraphicFramePr/>
+									<a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+										<a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/chart">
+											<c:chart xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:id="rId6"/>
+										</a:graphicData>
+									</a:graphic>
+								</wp:inline>
+							</w:drawing>
+						</w:r>
+					</w:p>
+					<w:sectPr w:rsidR="00692156" w:rsidRPr="004F548C">
+						<w:pgSz w:w="11906" w:h="16838"/>
+						<w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="708" w:footer="708" w:gutter="0"/>
+						<w:cols w:space="708"/>
+						<w:docGrid w:type="lines" w:linePitch="360"/>
+					</w:sectPr>
+				</w:body>
+			</w:document>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart" Target="charts/chart1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/charts/chart1.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml">
+		<pkg:xmlData>
+			<c:chartSpace xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:c16r2="http://schemas.microsoft.com/office/drawing/2015/06/chart">
+				<c:date1904 val="0"/>
+				<c:lang val="zh-CN"/>
+				<c:roundedCorners val="0"/>
+				<mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+					<mc:Choice Requires="c14" xmlns:c14="http://schemas.microsoft.com/office/drawing/2007/8/2/chart">
+						<c14:style val="102"/>
+					</mc:Choice>
+					<mc:Fallback>
+						<c:style val="2"/>
+					</mc:Fallback>
+				</mc:AlternateContent>
+				<c:chart>
+					<c:title>
+						<c:overlay val="0"/>
+						<c:spPr>
+							<a:noFill/>
+							<a:ln>
+								<a:noFill/>
+							</a:ln>
+							<a:effectLst/>
+						</c:spPr>
+						<c:txPr>
+							<a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>
+							<a:lstStyle/>
+							<a:p>
+								<a:pPr>
+									<a:defRPr sz="1400" b="0" i="0" u="none" strike="noStrike" kern="1200" spc="0" baseline="0">
+										<a:solidFill>
+											<a:schemeClr val="tx1">
+												<a:lumMod val="65000"/>
+												<a:lumOff val="35000"/>
+											</a:schemeClr>
+										</a:solidFill>
+										<a:latin typeface="+mn-lt"/>
+										<a:ea typeface="+mn-ea"/>
+										<a:cs typeface="+mn-cs"/>
+									</a:defRPr>
+								</a:pPr>
+								<a:endParaRPr lang="zh-Hans-HK"/>
+							</a:p>
+						</c:txPr>
+					</c:title>
+					<c:autoTitleDeleted val="0"/>
+					<c:plotArea>
+						<c:layout/>
+						<c:lineChart>
+							<c:grouping val="standard"/>
+							<c:varyColors val="0"/>
+							<c:ser>
+								<c:idx val="0"/>
+								<c:order val="0"/>
+								<c:tx>
+									<c:strRef>
+										<c:f>Sheet1!$B$1</c:f>
+										<c:strCache>
+											<c:ptCount val="1"/>
+											<c:pt idx="0">
+												<c:v>系列 1</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:tx>
+								<c:spPr>
+									<a:ln w="28575" cap="rnd">
+										<a:solidFill>
+											<a:schemeClr val="accent1"/>
+										</a:solidFill>
+										<a:round/>
+									</a:ln>
+									<a:effectLst/>
+								</c:spPr>
+								<c:marker>
+									<c:symbol val="none"/>
+								</c:marker>
+								<c:cat>
+									<c:strRef>
+										<c:f>Sheet1!$A$2:$A$5</c:f>
+										<c:strCache>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>类别 1</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>类别 2</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>类别 3</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>类别 4</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:cat>
+								<c:val>
+									<c:numRef>
+										<c:f>Sheet1!$B$2:$B$5</c:f>
+										<c:numCache>
+											<c:formatCode>General</c:formatCode>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>4.3</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>2.5</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>3.5</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>4.5</c:v>
+											</c:pt>
+										</c:numCache>
+									</c:numRef>
+								</c:val>
+								<c:smooth val="0"/>
+								<c:extLst>
+									<c:ext uri="{C3380CC4-5D6E-409C-BE32-E72D297353CC}" xmlns:c16="http://schemas.microsoft.com/office/drawing/2014/chart">
+										<c16:uniqueId val="{00000000-F453-42AA-85E0-EA1B47AC2719}"/>
+									</c:ext>
+								</c:extLst>
+							</c:ser>
+							<c:ser>
+								<c:idx val="1"/>
+								<c:order val="1"/>
+								<c:tx>
+									<c:strRef>
+										<c:f>Sheet1!$C$1</c:f>
+										<c:strCache>
+											<c:ptCount val="1"/>
+											<c:pt idx="0">
+												<c:v>系列 2</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:tx>
+								<c:spPr>
+									<a:ln w="28575" cap="rnd">
+										<a:solidFill>
+											<a:schemeClr val="accent2"/>
+										</a:solidFill>
+										<a:round/>
+									</a:ln>
+									<a:effectLst/>
+								</c:spPr>
+								<c:marker>
+									<c:symbol val="none"/>
+								</c:marker>
+								<c:cat>
+									<c:strRef>
+										<c:f>Sheet1!$A$2:$A$5</c:f>
+										<c:strCache>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>类别 1</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>类别 2</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>类别 3</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>类别 4</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:cat>
+								<c:val>
+									<c:numRef>
+										<c:f>Sheet1!$C$2:$C$5</c:f>
+										<c:numCache>
+											<c:formatCode>General</c:formatCode>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>2.4</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>4.4000000000000004</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>1.8</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>2.8</c:v>
+											</c:pt>
+										</c:numCache>
+									</c:numRef>
+								</c:val>
+								<c:smooth val="0"/>
+								<c:extLst>
+									<c:ext uri="{C3380CC4-5D6E-409C-BE32-E72D297353CC}" xmlns:c16="http://schemas.microsoft.com/office/drawing/2014/chart">
+										<c16:uniqueId val="{00000001-F453-42AA-85E0-EA1B47AC2719}"/>
+									</c:ext>
+								</c:extLst>
+							</c:ser>
+							<c:ser>
+								<c:idx val="2"/>
+								<c:order val="2"/>
+								<c:tx>
+									<c:strRef>
+										<c:f>Sheet1!$D$1</c:f>
+										<c:strCache>
+											<c:ptCount val="1"/>
+											<c:pt idx="0">
+												<c:v>系列 3</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:tx>
+								<c:spPr>
+									<a:ln w="28575" cap="rnd">
+										<a:solidFill>
+											<a:schemeClr val="accent3"/>
+										</a:solidFill>
+										<a:round/>
+									</a:ln>
+									<a:effectLst/>
+								</c:spPr>
+								<c:marker>
+									<c:symbol val="none"/>
+								</c:marker>
+								<c:cat>
+									<c:strRef>
+										<c:f>Sheet1!$A$2:$A$5</c:f>
+										<c:strCache>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>类别 1</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>类别 2</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>类别 3</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>类别 4</c:v>
+											</c:pt>
+										</c:strCache>
+									</c:strRef>
+								</c:cat>
+								<c:val>
+									<c:numRef>
+										<c:f>Sheet1!$D$2:$D$5</c:f>
+										<c:numCache>
+											<c:formatCode>General</c:formatCode>
+											<c:ptCount val="4"/>
+											<c:pt idx="0">
+												<c:v>2</c:v>
+											</c:pt>
+											<c:pt idx="1">
+												<c:v>2</c:v>
+											</c:pt>
+											<c:pt idx="2">
+												<c:v>3</c:v>
+											</c:pt>
+											<c:pt idx="3">
+												<c:v>5</c:v>
+											</c:pt>
+										</c:numCache>
+									</c:numRef>
+								</c:val>
+								<c:smooth val="0"/>
+								<c:extLst>
+									<c:ext uri="{C3380CC4-5D6E-409C-BE32-E72D297353CC}" xmlns:c16="http://schemas.microsoft.com/office/drawing/2014/chart">
+										<c16:uniqueId val="{00000002-F453-42AA-85E0-EA1B47AC2719}"/>
+									</c:ext>
+								</c:extLst>
+							</c:ser>
+							<c:dLbls>
+								<c:showLegendKey val="0"/>
+								<c:showVal val="0"/>
+								<c:showCatName val="0"/>
+								<c:showSerName val="0"/>
+								<c:showPercent val="0"/>
+								<c:showBubbleSize val="0"/>
+							</c:dLbls>
+							<c:smooth val="0"/>
+							<c:axId val="1196099615"/>
+							<c:axId val="1191696975"/>
+						</c:lineChart>
+						<c:catAx>
+							<c:axId val="1196099615"/>
+							<c:scaling>
+								<c:orientation val="minMax"/>
+							</c:scaling>
+							<c:delete val="0"/>
+							<c:axPos val="b"/>
+							<c:numFmt formatCode="General" sourceLinked="1"/>
+							<c:majorTickMark val="none"/>
+							<c:minorTickMark val="none"/>
+							<c:tickLblPos val="nextTo"/>
+							<c:spPr>
+								<a:noFill/>
+								<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+									<a:solidFill>
+										<a:schemeClr val="tx1">
+											<a:lumMod val="15000"/>
+											<a:lumOff val="85000"/>
+										</a:schemeClr>
+									</a:solidFill>
+									<a:round/>
+								</a:ln>
+								<a:effectLst/>
+							</c:spPr>
+							<c:txPr>
+								<a:bodyPr rot="-60000000" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr>
+										<a:defRPr sz="900" b="0" i="0" u="none" strike="noStrike" kern="1200" baseline="0">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:lumMod val="65000"/>
+													<a:lumOff val="35000"/>
+												</a:schemeClr>
+											</a:solidFill>
+											<a:latin typeface="+mn-lt"/>
+											<a:ea typeface="+mn-ea"/>
+											<a:cs typeface="+mn-cs"/>
+										</a:defRPr>
+									</a:pPr>
+									<a:endParaRPr lang="zh-Hans-HK"/>
+								</a:p>
+							</c:txPr>
+							<c:crossAx val="1191696975"/>
+							<c:crosses val="autoZero"/>
+							<c:auto val="1"/>
+							<c:lblAlgn val="ctr"/>
+							<c:lblOffset val="100"/>
+							<c:noMultiLvlLbl val="0"/>
+						</c:catAx>
+						<c:valAx>
+							<c:axId val="1191696975"/>
+							<c:scaling>
+								<c:orientation val="minMax"/>
+							</c:scaling>
+							<c:delete val="0"/>
+							<c:axPos val="l"/>
+							<c:majorGridlines>
+								<c:spPr>
+									<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+										<a:solidFill>
+											<a:schemeClr val="tx1">
+												<a:lumMod val="15000"/>
+												<a:lumOff val="85000"/>
+											</a:schemeClr>
+										</a:solidFill>
+										<a:round/>
+									</a:ln>
+									<a:effectLst/>
+								</c:spPr>
+							</c:majorGridlines>
+							<c:numFmt formatCode="General" sourceLinked="1"/>
+							<c:majorTickMark val="none"/>
+							<c:minorTickMark val="none"/>
+							<c:tickLblPos val="nextTo"/>
+							<c:spPr>
+								<a:noFill/>
+								<a:ln>
+									<a:noFill/>
+								</a:ln>
+								<a:effectLst/>
+							</c:spPr>
+							<c:txPr>
+								<a:bodyPr rot="-60000000" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr>
+										<a:defRPr sz="900" b="0" i="0" u="none" strike="noStrike" kern="1200" baseline="0">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:lumMod val="65000"/>
+													<a:lumOff val="35000"/>
+												</a:schemeClr>
+											</a:solidFill>
+											<a:latin typeface="+mn-lt"/>
+											<a:ea typeface="+mn-ea"/>
+											<a:cs typeface="+mn-cs"/>
+										</a:defRPr>
+									</a:pPr>
+									<a:endParaRPr lang="zh-Hans-HK"/>
+								</a:p>
+							</c:txPr>
+							<c:crossAx val="1196099615"/>
+							<c:crosses val="autoZero"/>
+							<c:crossBetween val="between"/>
+						</c:valAx>
+						<c:spPr>
+							<a:noFill/>
+							<a:ln>
+								<a:noFill/>
+							</a:ln>
+							<a:effectLst/>
+						</c:spPr>
+					</c:plotArea>
+					<c:legend>
+						<c:legendPos val="b"/>
+						<c:overlay val="0"/>
+						<c:spPr>
+							<a:noFill/>
+							<a:ln>
+								<a:noFill/>
+							</a:ln>
+							<a:effectLst/>
+						</c:spPr>
+						<c:txPr>
+							<a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>
+							<a:lstStyle/>
+							<a:p>
+								<a:pPr>
+									<a:defRPr sz="900" b="0" i="0" u="none" strike="noStrike" kern="1200" baseline="0">
+										<a:solidFill>
+											<a:schemeClr val="tx1">
+												<a:lumMod val="65000"/>
+												<a:lumOff val="35000"/>
+											</a:schemeClr>
+										</a:solidFill>
+										<a:latin typeface="+mn-lt"/>
+										<a:ea typeface="+mn-ea"/>
+										<a:cs typeface="+mn-cs"/>
+									</a:defRPr>
+								</a:pPr>
+								<a:endParaRPr lang="zh-Hans-HK"/>
+							</a:p>
+						</c:txPr>
+					</c:legend>
+					<c:plotVisOnly val="1"/>
+					<c:dispBlanksAs val="gap"/>
+					<c:extLst>
+						<c:ext uri="{56B9EC1D-385E-4148-901F-78D8002777C0}" xmlns:c16r3="http://schemas.microsoft.com/office/drawing/2017/03/chart">
+							<c16r3:dataDisplayOptions16>
+								<c16r3:dispNaAsBlank val="1"/>
+							</c16r3:dataDisplayOptions16>
+						</c:ext>
+					</c:extLst>
+					<c:showDLblsOverMax val="0"/>
+				</c:chart>
+				<c:spPr>
+					<a:solidFill>
+						<a:schemeClr val="bg1"/>
+					</a:solidFill>
+					<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+						<a:solidFill>
+							<a:schemeClr val="tx1">
+								<a:lumMod val="15000"/>
+								<a:lumOff val="85000"/>
+							</a:schemeClr>
+						</a:solidFill>
+						<a:round/>
+					</a:ln>
+					<a:effectLst/>
+				</c:spPr>
+				<c:txPr>
+					<a:bodyPr/>
+					<a:lstStyle/>
+					<a:p>
+						<a:pPr>
+							<a:defRPr/>
+						</a:pPr>
+						<a:endParaRPr lang="zh-Hans-HK"/>
+					</a:p>
+				</c:txPr>
+				<c:externalData r:id="rId3">
+					<c:autoUpdate val="0"/>
+				</c:externalData>
+			</c:chartSpace>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/charts/style1.xml" pkg:contentType="application/vnd.ms-office.chartstyle+xml">
+		<pkg:xmlData pkg:originalXmlStandalone="no">
+			<cs:chartStyle xmlns:cs="http://schemas.microsoft.com/office/drawing/2012/chartStyle" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" id="227">
+				<cs:axisTitle>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="1000" kern="1200"/>
+				</cs:axisTitle>
+				<cs:categoryAxis>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="15000"/>
+									<a:lumOff val="85000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:categoryAxis>
+				<cs:chartArea mods="allowNoFillOverride allowNoLineOverride">
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="bg1"/>
+						</a:solidFill>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="15000"/>
+									<a:lumOff val="85000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+					<cs:defRPr sz="1000" kern="1200"/>
+				</cs:chartArea>
+				<cs:dataLabel>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="75000"/>
+							<a:lumOff val="25000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:dataLabel>
+				<cs:dataLabelCallout>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="dk1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="lt1"/>
+						</a:solidFill>
+						<a:ln>
+							<a:solidFill>
+								<a:schemeClr val="dk1">
+									<a:lumMod val="25000"/>
+									<a:lumOff val="75000"/>
+								</a:schemeClr>
+							</a:solidFill>
+						</a:ln>
+					</cs:spPr>
+					<cs:defRPr sz="900" kern="1200"/>
+					<cs:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="clip" horzOverflow="clip" vert="horz" wrap="square" lIns="36576" tIns="18288" rIns="36576" bIns="18288" anchor="ctr" anchorCtr="1">
+						<a:spAutoFit/>
+					</cs:bodyPr>
+				</cs:dataLabelCallout>
+				<cs:dataPoint>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="1">
+						<cs:styleClr val="auto"/>
+					</cs:fillRef>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="phClr"/>
+						</a:solidFill>
+					</cs:spPr>
+				</cs:dataPoint>
+				<cs:dataPoint3D>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="1">
+						<cs:styleClr val="auto"/>
+					</cs:fillRef>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="phClr"/>
+						</a:solidFill>
+					</cs:spPr>
+				</cs:dataPoint3D>
+				<cs:dataPointLine>
+					<cs:lnRef idx="0">
+						<cs:styleClr val="auto"/>
+					</cs:lnRef>
+					<cs:fillRef idx="1"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="28575" cap="rnd">
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:dataPointLine>
+				<cs:dataPointMarker>
+					<cs:lnRef idx="0">
+						<cs:styleClr val="auto"/>
+					</cs:lnRef>
+					<cs:fillRef idx="1">
+						<cs:styleClr val="auto"/>
+					</cs:fillRef>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="phClr"/>
+						</a:solidFill>
+						<a:ln w="9525">
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+						</a:ln>
+					</cs:spPr>
+				</cs:dataPointMarker>
+				<cs:dataPointMarkerLayout symbol="circle" size="5"/>
+				<cs:dataPointWireframe>
+					<cs:lnRef idx="0">
+						<cs:styleClr val="auto"/>
+					</cs:lnRef>
+					<cs:fillRef idx="1"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="rnd">
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:dataPointWireframe>
+				<cs:dataTable>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:noFill/>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="15000"/>
+									<a:lumOff val="85000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:dataTable>
+				<cs:downBar>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="dk1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="dk1">
+								<a:lumMod val="65000"/>
+								<a:lumOff val="35000"/>
+							</a:schemeClr>
+						</a:solidFill>
+						<a:ln w="9525">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="65000"/>
+									<a:lumOff val="35000"/>
+								</a:schemeClr>
+							</a:solidFill>
+						</a:ln>
+					</cs:spPr>
+				</cs:downBar>
+				<cs:dropLine>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="35000"/>
+									<a:lumOff val="65000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:dropLine>
+				<cs:errorBar>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="65000"/>
+									<a:lumOff val="35000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:errorBar>
+				<cs:floor>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:noFill/>
+						<a:ln>
+							<a:noFill/>
+						</a:ln>
+					</cs:spPr>
+				</cs:floor>
+				<cs:gridlineMajor>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="15000"/>
+									<a:lumOff val="85000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:gridlineMajor>
+				<cs:gridlineMinor>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="5000"/>
+									<a:lumOff val="95000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:gridlineMinor>
+				<cs:hiLoLine>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="75000"/>
+									<a:lumOff val="25000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:hiLoLine>
+				<cs:leaderLine>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="35000"/>
+									<a:lumOff val="65000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:leaderLine>
+				<cs:legend>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:legend>
+				<cs:plotArea mods="allowNoFillOverride allowNoLineOverride">
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+				</cs:plotArea>
+				<cs:plotArea3D mods="allowNoFillOverride allowNoLineOverride">
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+				</cs:plotArea3D>
+				<cs:seriesAxis>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:seriesAxis>
+				<cs:seriesLine>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="35000"/>
+									<a:lumOff val="65000"/>
+								</a:schemeClr>
+							</a:solidFill>
+							<a:round/>
+						</a:ln>
+					</cs:spPr>
+				</cs:seriesLine>
+				<cs:title>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="1400" b="0" kern="1200" spc="0" baseline="0"/>
+				</cs:title>
+				<cs:trendline>
+					<cs:lnRef idx="0">
+						<cs:styleClr val="auto"/>
+					</cs:lnRef>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:ln w="19050" cap="rnd">
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+							<a:prstDash val="sysDot"/>
+						</a:ln>
+					</cs:spPr>
+				</cs:trendline>
+				<cs:trendlineLabel>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:trendlineLabel>
+				<cs:upBar>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="dk1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:solidFill>
+							<a:schemeClr val="lt1"/>
+						</a:solidFill>
+						<a:ln w="9525">
+							<a:solidFill>
+								<a:schemeClr val="tx1">
+									<a:lumMod val="15000"/>
+									<a:lumOff val="85000"/>
+								</a:schemeClr>
+							</a:solidFill>
+						</a:ln>
+					</cs:spPr>
+				</cs:upBar>
+				<cs:valueAxis>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1">
+							<a:lumMod val="65000"/>
+							<a:lumOff val="35000"/>
+						</a:schemeClr>
+					</cs:fontRef>
+					<cs:defRPr sz="900" kern="1200"/>
+				</cs:valueAxis>
+				<cs:wall>
+					<cs:lnRef idx="0"/>
+					<cs:fillRef idx="0"/>
+					<cs:effectRef idx="0"/>
+					<cs:fontRef idx="minor">
+						<a:schemeClr val="tx1"/>
+					</cs:fontRef>
+					<cs:spPr>
+						<a:noFill/>
+						<a:ln>
+							<a:noFill/>
+						</a:ln>
+					</cs:spPr>
+				</cs:wall>
+			</cs:chartStyle>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/charts/colors1.xml" pkg:contentType="application/vnd.ms-office.chartcolorstyle+xml">
+		<pkg:xmlData pkg:originalXmlStandalone="no">
+			<cs:colorStyle xmlns:cs="http://schemas.microsoft.com/office/drawing/2012/chartStyle" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" meth="cycle" id="10">
+				<a:schemeClr val="accent1"/>
+				<a:schemeClr val="accent2"/>
+				<a:schemeClr val="accent3"/>
+				<a:schemeClr val="accent4"/>
+				<a:schemeClr val="accent5"/>
+				<a:schemeClr val="accent6"/>
+				<cs:variation/>
+				<cs:variation>
+					<a:lumMod val="60000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="80000"/>
+					<a:lumOff val="20000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="80000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="60000"/>
+					<a:lumOff val="40000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="50000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="70000"/>
+					<a:lumOff val="30000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="70000"/>
+				</cs:variation>
+				<cs:variation>
+					<a:lumMod val="50000"/>
+					<a:lumOff val="50000"/>
+				</cs:variation>
+			</cs:colorStyle>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/embeddings/Microsoft_Excel_Worksheet.xlsx" pkg:contentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" pkg:compression="store">
+		<pkg:binaryData>
+			UEsDBBQABgAIAAAAIQDdK4tYbAEAABAFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACs
+			lE1PwzAMhu9I/IcqV9Rm44AQWrcDH0eYxPgBoXHXaG0Sxd7Y/j1u9iGEyiq0Xmq1id/nrR1nMts2
+			dbKBgMbZXIyzkUjAFk4bu8zFx+IlvRcJkrJa1c5CLnaAYja9vposdh4w4WyLuaiI/IOUWFTQKMyc
+			B8srpQuNIn4NS+lVsVJLkLej0Z0snCWwlFKrIaaTJyjVuqbkecuf904C1CiSx/3GlpUL5X1tCkXs
+			VG6s/kVJD4SMM+MerIzHG7YhZCehXfkbcMh749IEoyGZq0CvqmEbclvLLxdWn86tsvMiHS5dWZoC
+			tCvWDVcgQx9AaawAqKmzGLNGGXv0fYYfN6OMYTywkfb/onCPD+J+g4zPyy1EmR4g0q4GHLrsUbSP
+			XKkA+p0CT8bgBn5q95VcfXIFJLVh6LZH0XN8Prfz4DzyBAf4fxeOI9pmp56FIJCB05B2HfYTkaf/
+			4rZDe79o0B1sGe+z6TcAAAD//wMAUEsDBBQABgAIAAAAIQC1VTAj9AAAAEwCAAALAAgCX3JlbHMv
+			LnJlbHMgogQCKKAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAArJJNT8MwDIbvSPyHyPfV3ZAQQkt3QUi7IVR+gEncD7WNoyQb3b8nHBBUGoMD
+			R3+9fvzK2908jerIIfbiNKyLEhQ7I7Z3rYaX+nF1ByomcpZGcazhxBF21fXV9plHSnkodr2PKqu4
+			qKFLyd8jRtPxRLEQzy5XGgkTpRyGFj2ZgVrGTVneYviuAdVCU+2thrC3N6Dqk8+bf9eWpukNP4g5
+			TOzSmRXIc2Jn2a58yGwh9fkaVVNoOWmwYp5yOiJ5X2RswPNEm78T/XwtTpzIUiI0Evgyz0fHJaD1
+			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
+			BgAAAAAMAAwAEwMAADYjAAAAAA==
+		</pkg:binaryData>
+	</pkg:part>
+	<pkg:part pkg:name="/word/charts/_rels/chart1.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/package" Target="../embeddings/Microsoft_Excel_Worksheet.xlsx"/>
+				<Relationship Id="rId2" Type="http://schemas.microsoft.com/office/2011/relationships/chartColorStyle" Target="colors1.xml"/>
+				<Relationship Id="rId1" Type="http://schemas.microsoft.com/office/2011/relationships/chartStyle" Target="style1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+</pkg:package>
