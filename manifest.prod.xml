@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+  <Id>f396438a-57b2-4bee-aa84-9f65ac86bb09</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>华文云道</ProviderName>
+  <DefaultLocale>zh-CN</DefaultLocale>
+  <DisplayName DefaultValue="Wendocs Template Designer">
+      <Override Locale="zh-CN" Value="华文云道模板设计器" />
+      <Override Locale="en-US" Value="Wendocs Template Designer" />
+  </DisplayName>
+  <Description DefaultValue="A powerful tool to advance your business.">
+      <Override Locale="zh-CN" Value="一款强有力的企业效率提升的工具。" />
+  </Description>
+  <IconUrl DefaultValue="https://app.wendocs.com/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://app.wendocs.com/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://www.wendocs.com/#support"/>
+  <AppDomains>
+    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://localhost:8081</AppDomain>
+    <AppDomain>https://app.wendocs.com</AppDomain>
+    <AppDomain>https://help.wendocs.com</AppDomain>
+    <AppDomain>https://api.wendocs.com</AppDomain>
+    <AppDomain>https://appum.wendocs.com</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Document" />
+  </Hosts>
+  <Requirements>
+          <Sets DefaultMinVersion="1.3">
+               <Set Name="WordApi" MinVersion="1.3"/>
+               <Set Name="DialogApi" MinVersion="1.2"/>
+          </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://app.wendocs.com/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Document">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Description"/>
+            <LearnMoreUrl resid="GetStarted.LearnMoreUrl"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url"/>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <CustomTab id="yundoc.maintab">
+                <Group id="commandsgroup">
+                <Label resid="commandsgroup.Label"/>
+                <Icon>
+                  <bt:Image size="16" resid="general.16x16"/>
+                  <bt:Image size="32" resid="general.32x32"/>
+                  <bt:Image size="80" resid="general.80x80"/>
+                </Icon>
+                <Control xsi:type="Button" id="showtaskpanel">
+                  <Label resid="showtaskpanel.Label"/>
+                  <Supertip>
+                    <Title resid="showtaskpanel.Label"/>
+                    <Description resid="showtaskpanel.Tooltip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16"/>
+                    <bt:Image size="32" resid="Icon.32x32"/>
+                    <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>Office.AutoShowTaskpaneWithDocument</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+               <Group id="textgrp">
+                    <Label resid="textgrp.Label"/>
+                    <Icon>
+                      <bt:Image size="16" resid="variable.16x16"/>
+                      <bt:Image size="32" resid="variable.32x32"/>
+                      <bt:Image size="80" resid="variable.80x80"/>
+                    </Icon>
+                  <Control xsi:type="Button" id="btnCreateDynamicText">
+                    <Label resid="inserttext.Label"/>
+                    <Supertip>
+                      <Title resid="inserttext.Label"/>
+                      <Description resid="inserttext.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="text.16x16"/>
+                      <bt:Image size="32" resid="text.32x32"/>
+                      <bt:Image size="80" resid="text.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                     
+                      <FunctionName>editDynamicText</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnCreateDynamicImage">
+                    <Label resid="insertimage.Label"/>
+                    <Supertip>
+                      <Title resid="insertimage.Label"/>
+                      <Description resid="insertimage.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="image.16x16"/>
+                      <bt:Image size="32" resid="image.32x32"/>
+                      <bt:Image size="80" resid="image.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editDynamicImage</FunctionName>
+                    </Action>
+                  </Control>
+                  <Control xsi:type="Button" id="btnCreateDynamicChart">
+                    <Label resid="insertchart.Label"/>
+                    <Supertip>
+                      <Title resid="insertchart.Label"/>
+                      <Description resid="insertchart.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="chart.16x16"/>
+                      <bt:Image size="32" resid="chart.32x32"/>
+                      <bt:Image size="80" resid="chart.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editDynamicChart</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                   <Control xsi:type="Button" id="btnBarcode">
+                    <Label resid="insertbarcode.Label"/>
+                    <Supertip>
+                      <Title resid="insertbarcode.Label"/>
+                      <Description resid="insertbarcode.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="barcode.16x16"/>
+                      <bt:Image size="32" resid="barcode.32x32"/>
+                      <bt:Image size="80" resid="barcode.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editBarcode</FunctionName>
+                    </Action>
+                     <Enabled>false</Enabled>
+                  </Control>
+                </Group>
+                <Group id="logicgrp">
+                    <Label resid="logicgrp.Label"/>
+                     <Icon>
+                      <bt:Image size="16" resid="logic.16x16"/>
+                      <bt:Image size="32" resid="logic.32x32"/>
+                      <bt:Image size="80" resid="logic.80x80"/>
+                    </Icon>
+                  <Control xsi:type="Button" id="btnCreateLoop">
+                    <Label resid="insertloop.Label"/>
+                    <Supertip>
+                      <Title resid="insertloop.Label"/>
+                      <Description resid="insertloop.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="loop.16x16"/>
+                      <bt:Image size="32" resid="loop.32x32"/>
+                      <bt:Image size="80" resid="loop.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editLoop</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnCreateIFGrp">
+                    <Label resid="insertif.Label"/>
+                    <Supertip>
+                      <Title resid="insertif.Label"/>
+                      <Description resid="insertif.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="ifgroup.16x16"/>
+                      <bt:Image size="32" resid="ifgroup.32x32"/>
+                      <bt:Image size="80" resid="ifgroup.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editIFGroup</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                </Group>
+                <Group id="formsgrp">
+                    <Label resid="formsgrp.Label"/>
+                    <Icon>
+                      <bt:Image size="16" resid="forms.16x16"/>
+                      <bt:Image size="32" resid="forms.32x32"/>
+                      <bt:Image size="80" resid="forms.80x80"/>
+                    </Icon>
+                  <Control xsi:type="Button" id="btnCreateTextbox">
+                    <Label resid="inserttextbox.Label"/>
+                    <Supertip>
+                      <Title resid="inserttextbox.Label"/>
+                      <Description resid="inserttextbox.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="textbox.16x16"/>
+                      <bt:Image size="32" resid="textbox.32x32"/>
+                      <bt:Image size="80" resid="textbox.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editTextbox</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnCreateCheckbox">
+                    <Label resid="insertcheckbox.Label"/>
+                    <Supertip>
+                      <Title resid="insertcheckbox.Label"/>
+                      <Description resid="insertcheckbox.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="checkbox.16x16"/>
+                      <bt:Image size="32" resid="checkbox.32x32"/>
+                      <bt:Image size="80" resid="checkbox.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editCheckbox</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnCreateDropdown">
+                    <Label resid="insertdropdown.Label"/>
+                    <Supertip>
+                      <Title resid="insertdropdown.Label"/>
+                      <Description resid="insertdropdown.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="dropdown.16x16"/>
+                      <bt:Image size="32" resid="dropdown.32x32"/>
+                      <bt:Image size="80" resid="dropdown.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editDropdown</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                   <Control xsi:type="Button" id="btnCreateDatepicker">
+                    <Label resid="insertdate.Label"/>
+                    <Supertip>
+                      <Title resid="insertdate.Label"/>
+                      <Description resid="insertdate.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="date.16x16"/>
+                      <bt:Image size="32" resid="date.32x32"/>
+                      <bt:Image size="80" resid="date.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>editDatepicker</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                </Group>
+                
+                <Group id="svsgrp">
+                    <Label resid="svsgrp.Label"/>
+                     <Icon>
+                      <bt:Image size="16" resid="service.16x16"/>
+                      <bt:Image size="32" resid="service.32x32"/>
+                      <bt:Image size="80" resid="service.80x80"/>
+                    </Icon>
+                  <Control xsi:type="Button" id="btnPreviewWord">
+                    <Label resid="previewWord.Label"/>
+                    <Supertip>
+                      <Title resid="previewWord.Label"/>
+                      <Description resid="previewWord.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="previewWord.16x16"/>
+                      <bt:Image size="32" resid="previewWord.32x32"/>
+                      <bt:Image size="80" resid="previewWord.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>previewWord</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnPreviewPDF">
+                    <Label resid="previewPDF.Label"/>
+                    <Supertip>
+                      <Title resid="previewPDF.Label"/>
+                      <Description resid="previewPDF.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="previewPDF.16x16"/>
+                      <bt:Image size="32" resid="previewPDF.32x32"/>
+                      <bt:Image size="80" resid="previewPDF.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>previewPDF</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                </Group> 
+
+
+                <Group id="supportgrp">
+                    <Label resid="supportgrp.Label"/>
+                     <Icon>
+                      <bt:Image size="16" resid="support.16x16"/>
+                      <bt:Image size="32" resid="support.32x32"/>
+                      <bt:Image size="80" resid="support.80x80"/>
+                    </Icon>
+                  <Control xsi:type="Button" id="btnSupport">
+                    <Label resid="support.Label"/>
+                    <Supertip>
+                      <Title resid="support.Label"/>
+                      <Description resid="support.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="support.16x16"/>
+                      <bt:Image size="32" resid="support.32x32"/>
+                      <bt:Image size="80" resid="support.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>contactSupport</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                  <Control xsi:type="Button" id="btnHelp">
+                    <Label resid="help.Label"/>
+                    <Supertip>
+                      <Title resid="help.Label"/>
+                      <Description resid="help.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="help.16x16"/>
+                      <bt:Image size="32" resid="help.32x32"/>
+                      <bt:Image size="80" resid="help.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>gotoHelp</FunctionName>
+                    </Action>
+                    <Enabled>false</Enabled>
+                  </Control>
+                </Group> 
+
+               <Label resid="maintab.Label"/>
+            </CustomTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16x16" DefaultValue="https://app.wendocs.com/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://app.wendocs.com/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://app.wendocs.com/assets/icon-80.png"/>
+        <bt:Image id="text.80x80" DefaultValue="https://app.wendocs.com/assets/dynamictext80.png"/>
+        <bt:Image id="text.32x32" DefaultValue="https://app.wendocs.com/assets/dynamictext32.png"/>
+        <bt:Image id="text.16x16" DefaultValue="https://app.wendocs.com/assets/dynamictext16.png"/>
+        <bt:Image id="barcode.80x80" DefaultValue="https://app.wendocs.com/assets/barcode80.png"/>
+        <bt:Image id="barcode.32x32" DefaultValue="https://app.wendocs.com/assets/barcode32.png"/>
+        <bt:Image id="barcode.16x16" DefaultValue="https://app.wendocs.com/assets/barcode16.png"/>
+        <bt:Image id="qrcode.80x80" DefaultValue="https://app.wendocs.com/assets/qrcode80.png"/>
+        <bt:Image id="qrcode.32x32" DefaultValue="https://app.wendocs.com/assets/qrcode32.png"/>
+        <bt:Image id="qrcode.16x16" DefaultValue="https://app.wendocs.com/assets/qrcode16.png"/>
+        <bt:Image id="chart.80x80" DefaultValue="https://app.wendocs.com/assets/chart80.png"/>
+        <bt:Image id="chart.32x32" DefaultValue="https://app.wendocs.com/assets/chart32.png"/>
+        <bt:Image id="chart.16x16" DefaultValue="https://app.wendocs.com/assets/chart16.png"/>
+        <bt:Image id="ifgroup.80x80" DefaultValue="https://app.wendocs.com/assets/ifgroup80.png"/>
+        <bt:Image id="ifgroup.32x32" DefaultValue="https://app.wendocs.com/assets/ifgroup32.png"/>
+        <bt:Image id="ifgroup.16x16" DefaultValue="https://app.wendocs.com/assets/ifgroup16.png"/>
+        <bt:Image id="loop.80x80" DefaultValue="https://app.wendocs.com/assets/loop80.png"/>
+        <bt:Image id="loop.32x32" DefaultValue="https://app.wendocs.com/assets/loop32.png"/>
+        <bt:Image id="loop.16x16" DefaultValue="https://app.wendocs.com/assets/loop16.png"/>
+        <bt:Image id="image.80x80" DefaultValue="https://app.wendocs.com/assets/image.png"/>
+        <bt:Image id="image.32x32" DefaultValue="https://app.wendocs.com/assets/image.png"/>
+        <bt:Image id="image.16x16" DefaultValue="https://app.wendocs.com/assets/image.png"/>
+        <bt:Image id="previewPDF.80x80" DefaultValue="https://app.wendocs.com/assets/pdf80.png"/>
+        <bt:Image id="previewPDF.32x32" DefaultValue="https://app.wendocs.com/assets/pdf32.png"/>
+        <bt:Image id="previewPDF.16x16" DefaultValue="https://app.wendocs.com/assets/pdf16.png"/>
+        <bt:Image id="previewWord.80x80" DefaultValue="https://app.wendocs.com/assets/word80.png"/>
+        <bt:Image id="previewWord.32x32" DefaultValue="https://app.wendocs.com/assets/word32.png"/>
+        <bt:Image id="previewWord.16x16" DefaultValue="https://app.wendocs.com/assets/word16.png"/>
+        <bt:Image id="service.80x80" DefaultValue="https://app.wendocs.com/assets/service.png"/>
+        <bt:Image id="service.32x32" DefaultValue="https://app.wendocs.com/assets/service.png"/>
+        <bt:Image id="service.16x16" DefaultValue="https://app.wendocs.com/assets/service.png"/>
+        <bt:Image id="variable.80x80" DefaultValue="https://app.wendocs.com/assets/variable.png"/>
+        <bt:Image id="variable.32x32" DefaultValue="https://app.wendocs.com/assets/variable.png"/>
+        <bt:Image id="variable.16x16" DefaultValue="https://app.wendocs.com/assets/variable.png"/>
+        <bt:Image id="logic.80x80" DefaultValue="https://app.wendocs.com/assets/logic.png"/>
+        <bt:Image id="logic.32x32" DefaultValue="https://app.wendocs.com/assets/logic.png"/>
+        <bt:Image id="logic.16x16" DefaultValue="https://app.wendocs.com/assets/logic.png"/>
+
+        <bt:Image id="forms.80x80" DefaultValue="https://app.wendocs.com/assets/forms.png"/>
+        <bt:Image id="forms.32x32" DefaultValue="https://app.wendocs.com/assets/forms.png"/>
+        <bt:Image id="forms.16x16" DefaultValue="https://app.wendocs.com/assets/forms.png"/>
+
+        <bt:Image id="textbox.80x80" DefaultValue="https://app.wendocs.com/assets/textbox80.png"/>
+        <bt:Image id="textbox.32x32" DefaultValue="https://app.wendocs.com/assets/textbox32.png"/>
+        <bt:Image id="textbox.16x16" DefaultValue="https://app.wendocs.com/assets/textbox16.png"/>  
+
+        <bt:Image id="checkbox.80x80" DefaultValue="https://app.wendocs.com/assets/checkbox80.png"/>
+        <bt:Image id="checkbox.32x32" DefaultValue="https://app.wendocs.com/assets/checkbox32.png"/>
+        <bt:Image id="checkbox.16x16" DefaultValue="https://app.wendocs.com/assets/checkbox16.png"/>
+        
+        <bt:Image id="dropdown.80x80" DefaultValue="https://app.wendocs.com/assets/dropdown80.png"/>
+        <bt:Image id="dropdown.32x32" DefaultValue="https://app.wendocs.com/assets/dropdown32.png"/>
+        <bt:Image id="dropdown.16x16" DefaultValue="https://app.wendocs.com/assets/dropdown16.png"/>
+
+        <bt:Image id="date.80x80" DefaultValue="https://app.wendocs.com/assets/date80.png"/>
+        <bt:Image id="date.32x32" DefaultValue="https://app.wendocs.com/assets/date32.png"/>
+        <bt:Image id="date.16x16" DefaultValue="https://app.wendocs.com/assets/date16.png"/>
+
+        <bt:Image id="help.80x80" DefaultValue="https://app.wendocs.com/assets/help80.png"/>
+        <bt:Image id="help.32x32" DefaultValue="https://app.wendocs.com/assets/help32.png"/>
+        <bt:Image id="help.16x16" DefaultValue="https://app.wendocs.com/assets/help16.png"/>
+
+        <bt:Image id="support.80x80" DefaultValue="https://app.wendocs.com/assets/support80.png"/>
+        <bt:Image id="support.32x32" DefaultValue="https://app.wendocs.com/assets/support32.png"/>
+        <bt:Image id="support.16x16" DefaultValue="https://app.wendocs.com/assets/support16.png"/>
+
+        <bt:Image id="general.80x80" DefaultValue="https://app.wendocs.com/assets/general.png"/>
+        <bt:Image id="general.32x32" DefaultValue="https://app.wendocs.com/assets/general.png"/>
+        <bt:Image id="general.16x16" DefaultValue="https://app.wendocs.com/assets/general.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://app.wendocs.com/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://app.wendocs.com/taskpane.html"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="GetStarted.Title" DefaultValue="Nice choice!">
+          <bt:Override Locale="zh-cn" Value="明智之举" />
+        </bt:String>
+        <bt:String id="maintab.Label" DefaultValue="WenDocs Designer">
+            <bt:Override Locale="zh-cn" Value="华文云道" />
+        </bt:String>
+        <bt:String id="commandsgroup.Label" DefaultValue="General">
+            <bt:Override Locale="zh-cn" Value="通用" />
+        </bt:String>
+        <bt:String id="textgrp.Label" DefaultValue="Dynamic Content">
+             <bt:Override Locale="zh-cn" Value="动态内容" />
+        </bt:String>
+        <bt:String id="inserttext.Label" DefaultValue="Text">
+             <bt:Override Locale="zh-cn" Value="文字" />
+        </bt:String>
+        <bt:String id="insertimage.Label" DefaultValue="Image">
+            <bt:Override Locale="zh-cn" Value="图片" />
+        </bt:String>
+        <bt:String id="insertchart.Label" DefaultValue="Chart">
+          <bt:Override Locale="zh-cn" Value="图表" />
+        </bt:String>
+        <bt:String id="insertbarcode.Label" DefaultValue="Barcode">
+             <bt:Override Locale="zh-cn" Value="条形码" />
+        </bt:String>
+         <bt:String id="insertqrcode.Label" DefaultValue="QRCode">
+             <bt:Override Locale="zh-cn" Value="二维码" />
+        </bt:String>
+        <bt:String id="insertloop.Label" DefaultValue="Loop Group">
+          <bt:Override Locale="zh-cn" Value="循环块" />
+        </bt:String>
+        <bt:String id="insertif.Label" DefaultValue="IF Group">
+          <bt:Override Locale="zh-cn" Value="条件块" />
+         </bt:String>
+        <bt:String id="logicgrp.Label" DefaultValue="Logic Group">
+          <bt:Override Locale="zh-cn" Value="逻辑内容" />
+        </bt:String>
+        <bt:String id="showtaskpanel.Label" DefaultValue="Show Designer">
+          <bt:Override Locale="zh-cn" Value="设计器" />
+        </bt:String>
+        <bt:String id="formsgrp.Label" DefaultValue="Forms">
+          <bt:Override Locale="zh-cn" Value="表单" />
+        </bt:String>
+        <bt:String id="inserttextbox.Label" DefaultValue="Textbox">
+          <bt:Override Locale="zh-cn" Value="文本框" />
+         </bt:String>
+        <bt:String id="insertcheckbox.Label" DefaultValue="Checkbox">
+          <bt:Override Locale="zh-cn" Value="复选框" />
+         </bt:String>
+        <bt:String id="insertdropdown.Label" DefaultValue="Dropdown">
+          <bt:Override Locale="zh-cn" Value="下拉列表" />
+         </bt:String>
+        <bt:String id="insertdate.Label" DefaultValue="Date Picker">
+          <bt:Override Locale="zh-cn" Value="日期选择器" />
+         </bt:String>
+
+         <bt:String id="svsgrp.Label" DefaultValue="Preview">
+          <bt:Override Locale="zh-cn" Value="预览" />
+        </bt:String>
+         <bt:String id="previewWord.Label" DefaultValue="Word">
+          <bt:Override Locale="zh-cn" Value="Word" />
+        </bt:String>
+         <bt:String id="previewPDF.Label" DefaultValue="PDF">
+          <bt:Override Locale="zh-cn" Value="PDF" />
+        </bt:String>
+
+        <bt:String id="supportgrp.Label" DefaultValue="Support">
+          <bt:Override Locale="zh-cn" Value="技术支持" />
+        </bt:String>
+        <bt:String id="support.Label" DefaultValue="Support">
+          <bt:Override Locale="zh-cn" Value="技术支持" />
+        </bt:String>
+         <bt:String id="help.Label" DefaultValue="Help">
+          <bt:Override Locale="zh-cn" Value="帮助文档" />
+        </bt:String>
+
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="GetStarted.Description" DefaultValue="Your Wendocs Designer was load successfully. Go to the WenDocs Designer tab and click the 'Show Taskpane' button to get started.">
+          <bt:Override Locale="zh-cn" Value="恭喜！您的华文云道设计器已经成功加载，请切换到“华文云道”选项卡进行文档设计。" />
+         </bt:String>
+        <bt:String id="showtaskpanel.Tooltip" DefaultValue="Click to Show the WenDocs Designer in a taskpanel.">
+          <bt:Override Locale="zh-cn" Value="点击以在工作面板中显示华文云道设计器。" />
+         </bt:String>
+        <bt:String id="inserttext.Tooltip" DefaultValue="create a dynamic text control for your content.">
+          <bt:Override Locale="zh-cn" Value="创建动态文字" />
+         </bt:String>
+        <bt:String id="insertimage.Tooltip" DefaultValue="create a dynamic image control for your content.">
+            <bt:Override Locale="zh-cn" Value="创建动态图片" />
+        </bt:String>
+        <bt:String id="insertchart.Tooltip" DefaultValue="create a dynamic chart control for your content.">
+            <bt:Override Locale="zh-cn" Value="创建动态图表" />
+         </bt:String>
+         <bt:String id="insertbarcode.Tooltip" DefaultValue="create a bar-code control for your content.">
+            <bt:Override Locale="zh-cn" Value="创建条形码" />
+         </bt:String>
+          <bt:String id="insertqrcode.Tooltip" DefaultValue="create a QR-Code control for your content.">
+            <bt:Override Locale="zh-cn" Value="创建二维码" />
+         </bt:String>
+        <bt:String id="insertloop.Tooltip" DefaultValue="create a loop content group.">
+            <bt:Override Locale="zh-cn" Value="创建循环" />
+         </bt:String>
+        <bt:String id="insertif.Tooltip" DefaultValue="create a conditional content group.">
+            <bt:Override Locale="zh-cn" Value="创建条件内容" />
+        </bt:String>
+        
+        <bt:String id="inserttextbox.Tooltip" DefaultValue="create a textbox field in the document.">
+            <bt:Override Locale="zh-cn" Value="在文档中创建文本框控件。" />
+        </bt:String>
+          <bt:String id="insertcheckbox.Tooltip" DefaultValue="create a checkbox field in the document.">
+            <bt:Override Locale="zh-cn" Value="在文档中创建复选框控件。" />
+        </bt:String>
+          <bt:String id="insertdropdown.Tooltip" DefaultValue="create a dropdown field in the document.">
+            <bt:Override Locale="zh-cn" Value="在文档中创建下拉列表控件。" />
+        </bt:String>
+          <bt:String id="insertdate.Tooltip" DefaultValue="create a DateTime picker field in the document.">
+            <bt:Override Locale="zh-cn" Value="在文档中创建日期选择控件。" />
+        </bt:String>
+        <bt:String id="previewWord.Tooltip" DefaultValue="Preview the content as Word.">
+            <bt:Override Locale="zh-cn" Value="预览为Word格式。" />
+        </bt:String>
+        <bt:String id="previewPDF.Tooltip" DefaultValue="Preview the content as PDF.">
+            <bt:Override Locale="zh-cn" Value="预览为PDF格式。" />
+        </bt:String>
+        
+        <bt:String id="support.Tooltip" DefaultValue="Contact technical support">
+          <bt:Override Locale="zh-cn" Value="联系技术支持" />
+        </bt:String>
+
+        <bt:String id="help.Tooltip" DefaultValue="Open the online help document">
+          <bt:Override Locale="zh-cn" Value="打开在线帮助文档" />
+        </bt:String>
+      </bt:LongStrings>
+    </Resources>
+   <WebApplicationInfo>
+      <Id>c91c147e-3eab-4611-b9de-f4820c465c0f</Id>
+      <Resource>api://app.wendocs.com/c91c147e-3eab-4611-b9de-f4820c465c0f</Resource>
+      <Scopes>
+        <Scope>User.Read</Scope>
+        <Scope>profile</Scope>
+        <Scope>openid</Scope>
+      </Scopes>
+    </WebApplicationInfo>
+  </VersionOverrides>
+</OfficeApp>

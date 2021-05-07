@@ -1,0 +1,241 @@
+/* 
+ * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     background-color:white;
+ }
+
+
+/* ul tree define */
+ul.domtree,
+ul.domtree ul {
+    margin: 0;
+    padding: 0 0 0 2.5em;
+}
+
+ul.domtree li {
+    list-style: none;
+    position: relative;
+}
+
+/*
+ul.domtree>li:first-child:before {
+    border-style: none none solid none;
+}*/
+
+
+ul.domtree li:before {
+    position: absolute;
+    content: '';
+    top: -0.01em;
+    left: -0.7em;
+    width: 0.5em;
+    height: 0.615em;
+    border-style: none none solid solid;
+    border-width: 0.05em;
+    border-color: #aaa;
+}
+
+ul.domtree li:not(:last-child):after {
+    position: absolute;
+    content: '';
+    top: 0.7em;
+    left: -0.7em;
+    bottom: 0;
+    border-style: none none none solid;
+    border-width: 0.05em;
+    border-color: #aaa;
+}
+
+ul.domtree .flexContainer-90{
+    align-items: unset;
+}
+
+ul.domtree ul.collapse
+{
+    display: none;
+}
+ul.domtree ul.expanded 
+{
+    display: block;
+}
+
+ul.domtree {
+    height: auto;
+    margin-left: 0;
+}
+hr.menu-spliter {
+    border-color: lightcyan;
+}
+ul.domtree>li:first-child:before, ul.domtree>li, ul.domtree>li:not(:last-child):after, ul.domtree>li:before {
+    border-style: none none none none;
+}
+.properties-bar {
+    border-style: none;
+    border-bottom: solid lightgray 1px;
+    padding: 00.1em 0 0 00.5em;
+}
+.treenode-selected
+{
+    border-bottom: gray solid 1px;
+    background-color: lightgray;
+    height: auto;
+    text-align: center;
+    padding: 00.1em 00.5em 00.2em 00.1em;
+}
+.treenode-normal{
+    height: auto;
+    text-align: center;
+    padding: 0.1em;
+    padding: 00.1em 00.5em 00.2em 00.1em;
+}
+.expressionRuleTable {
+    border: none;
+    border-collapse: collapse;
+    margin:  0;
+    padding: 0;
+    width: 100%;
+}
+.operatorCell {
+    width: 110px;
+}
+.expressionGroupCell {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.expressionValueCell {
+   width: 40%;
+   text-align:left;
+   margin: 0;
+   padding: 0;
+}
+.checkboxCell {
+    width: 1em;
+}
+
+.dialogactionpanel {
+  position: fixed;
+  display: block;
+  bottom: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.properties-bar {
+    border-style: none;
+    border-bottom: solid lightgray 1px;
+    background-color:white;
+    margin-bottom: 5px;
+}
+
+.expressionsourcecode {
+    margin: 10px;
+    border: solid lightgray 1px;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color:whitesmoke;
+    word-wrap: break-word;
+}
+.icon {
+    color: blue;
+    margin-top: 1.5em;
+}
+
+
+.progresszone, .progresszone-single, .progresszone-first {
+    position: relative;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.progresszone-last {
+    position: relative;
+    display: inline-block;
+}
+
+.progresszone-first::after, .progresszone::after {
+    content: "";
+    height: 1px;
+    width: 30px;
+    background: #b8c0cb;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+}
+.progresszone::before, .progresszone-last::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(-100%,-50%);
+    -ms-transform: translate(-100%,-50%);
+    transform: translate(-100%,-50%);
+    border-left: 5px solid #b8c0cb;
+}
+.progresszone-primary {
+    border:cornflowerblue 2px solid;
+}
+.progresszone-success {
+    border:green 2px solid;
+}
+.progresszone-error {
+    border:red 2px solid;
+}
+.progresserror-bar {
+    margin-top: 10px;
+    width: 100%;
+}
+.fileuploaderarea {
+    margin: 5px 10px;
+    border: dashed #0078D4 2px;
+    height: 64px;
+    opacity: 0.8;
+    text-align: center;
+}
+.draguploadmsg {
+    margin-top: 5px;
+}
+.dragon {
+    background-color: lightgray;
+}
+.dragoff {
+    background-color: white;
+}
+.errormessage {
+    margin-top: 10px;
+}
+.loading {
+    margin: 20px;
+}
+.image-center {
+    text-align: center;
+}
+.recordlist {
+    position: absolute;
+    top: 90px;
+    margin: 0 10px;
+    height: calc(100vh - 148px);
+    overflow: auto;
+    width: calc(100% - 40px);
+}
+.dialogwrapper {
+    margin: 0 20px;
+    height: calc(100vh - 48px);
+}
+.progressform {
+    margin: 0 10px;
+    height: calc(100vh - 148px);
+    overflow: auto;
+}
